@@ -6,3 +6,10 @@ function register_my_menu(){
 }
 add_action( 'after_setup_theme', 'register_my_menu' );
 ?>
+
+<?php
+        wp_enqueue_script(
+            'monstyle',
+            get_template_directory_uri(). '/js/script.js'
+        )
+        ?>
