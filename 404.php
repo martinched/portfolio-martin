@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
+
     
     <?php get_header(); ?>
-  </head>
+  
+  <hr>
   <body>
-  <img src="erreur-404.avif" alt="erreur 404">
+  <h2><?php bloginfo( 'template_directory' ); ?></h2>
+  <img class="erreur404" src="http://localhost/wordpress/wp-content/themes/portfolio-martin/images/404.jpg" alt="erreur 404">
     <?php wp_footer(); ?>
    

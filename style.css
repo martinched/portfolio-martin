@@ -7,3 +7,193 @@ Description: Présentation de mon portfolio
 Version: 1.0
 */
 
+html, .accueil, h1, .header__menu, .footer__logo, .projet, .credits{
+    font-family: 'Overlock', sans-serif ;
+   
+}
+
+
+
+body{
+    background-color: #000000;
+    color: #fff;
+    margin: 30px;
+    margin-bottom: 0;
+    height: max-content;
+    padding-bottom: 0;
+}
+
+/*-------------header-------------------*/
+
+.header__menu-list{
+    list-style-type: none;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: darkgreen;
+    margin: 5px;
+}
+.header__menu-list a{
+    padding: 20px;
+    text-decoration: none;
+    color: gold;
+}
+.header__menu{
+    float: right; 
+    display: flex;
+}
+h1{
+    color: gold;
+    font-size: 60px;
+}
+h1, h2, h3, p{
+    text-align: center;
+    
+}
+h1, h2, h3{
+    color: gold !important;
+    margin-bottom: 20px;
+}
+
+
+/*----------------acceuil-------------------*/
+
+.boutonplus{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+.plus {
+background-color: darkgreen;
+    color: gold;
+    border-radius: 50px;
+    border-color: darkgreen;
+}
+#portrait{
+   border-radius: 50%;
+   width: 100%;
+}
+
+/*---------------------Projet-----------------------*/
+.codesource{
+    background-color: darkgreen;
+    color: gold;
+    border-radius: 50px;
+    border-color: darkgreen;
+}
+
+    
+/*-------------------footer-----------------*/
+
+.footer__logo{
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: gold;
+    color: #000;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.linkedin{
+    margin-top: -20px;
+}
+.mail{
+    margin-top: -15px;
+}
+.wa{
+    margin-top: -15px;
+}
+ .credits{
+    background-color: gold;
+    font-size: 14px;
+    border-top:1px solid;
+    border-color: #000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #000;
+}
+
+/*---------------------------formulaire-------------------------*/
+.formulaire{
+    text-align: center;
+    color: gold;
+}
+.formulaire h2{
+    margin-bottom: 40px;
+}
+.alert{
+    background-color: transparent;
+    color: gold; 
+    height: 40px;
+    margin-top: -40px;
+    border: none;
+    margin-bottom: 0;
+}
+#messagederreurmail{
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+.formulaire__label-message{
+    position: absolute;
+    margin-top: -30px;
+}
+#mess{
+    width: 500px;
+    height: 150px;
+    position: relative;
+}
+.envoi{
+    background-color: darkgreen;
+    color: gold;
+    border-radius: 50px;
+    border-color: darkgreen;
+}
+/*--------------------Media querie--------------*/
+
+@media screen and (max-width: 600px) {
+    body{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header{
+        display: flex;
+        flex-direction: column;   
+    }
+   .entete{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+   }
+    h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+     .footer__logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .rs{
+        margin: 10px;
+        width: 100%;
+    }
+    .accueil{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 300px){
+    .header__menu{
+        flex-direction: column;
+    }
+}
+.erreur{
+    display: none;
+}
+
+
+.img.erreur404{
+    display: flex;
+    align-items: center;
+}
