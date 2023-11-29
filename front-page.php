@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row accueil">
                 <div class="col-12 col-md-6">
-                    <!--<h2>Qui suis je?</h2>-->
+                    <!--<h2>Qui suis je?</h2>
                         <p>
                             <?php $post = get_post(127) ?>
                             <?php echo $post->post_content ?>
@@ -38,8 +38,8 @@
                     </div>
 
                 <div class="col-12 col-md-6" class="portrait">
-                    <img src="http://localhost/wordpress/wp-content/themes/portfolio-martin/images/martin.2.jpg" alt="portrait M. Chedaille" id="portrait">
-                    <?php $post = get_post(142) ?>
+                   
+                    <?php $post = get_post(151) ?>
                             <?php echo $post->post_content ?>
                 </div>
 
