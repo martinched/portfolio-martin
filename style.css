@@ -7,8 +7,8 @@ Description: Présentation de mon portfolio
 Version: 1.0
 */
 
-html{
-    font-family: 'Overlock', sans-serif;
+html, .accueil, h1, .header__menu, .footer__logo, .projet, .credits{
+    font-family: 'Overlock', sans-serif ;
    
 }
 
@@ -123,7 +123,7 @@ background-color: darkgreen;
 }
 .alert{
     background-color: transparent;
-    color: red; 
+    color: gold; 
     height: 40px;
     margin-top: -40px;
     border: none;
@@ -150,7 +150,7 @@ background-color: darkgreen;
 }
 /*--------------------Media querie--------------*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     body{
         margin-left: 0;
         margin-right: 0;
@@ -170,7 +170,7 @@ background-color: darkgreen;
         font-size: 40px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
      .footer__logo{
         display: flex;
         flex-direction: column;
@@ -179,7 +179,7 @@ background-color: darkgreen;
         margin: 10px;
         width: 100%;
     }
-    .essais{
+    .accueil{
         flex-direction: column-reverse;
     }
 }
