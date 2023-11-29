@@ -7,7 +7,7 @@ Description: Présentation de mon portfolio
 Version: 1.0
 */
 
-html, .accueil, h1, .header__menu, .footer__logo, .projet, .credits{
+html, .accueil, h1, h2, h3, .essai, .header__menu, .footer__logo, .projet, .credits{
     font-family: 'Overlock', sans-serif ;
    
 }
@@ -143,11 +143,27 @@ background-color: darkgreen;
     position: relative;
 }
 .envoi{
+    border-block: none;
     background-color: darkgreen;
     color: gold;
     border-radius: 50px;
     border-color: darkgreen;
 }
+#message{
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;   
+}
+.form, #forms, label{
+    color: gold;
+}
+
+/*desactive l'animation 'en train d'envoyer' du bouton du formulaire de contact, afin de le centrer */
+.wpcf7-spinner{
+    display: none;
+}
+
 /*--------------------Media querie--------------*/
 
 @media screen and (max-width: 600px) {
@@ -168,6 +184,9 @@ background-color: darkgreen;
    }
     h1{
         font-size: 40px;
+    }
+    #message{
+        width: 300px;
     }
 }
 @media screen and (max-width: 768px) {

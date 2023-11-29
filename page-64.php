@@ -34,4 +34,7 @@
         </div>
     </section>
 
+    <?php $post = get_post(114) ?>
+        <?php echo $post->post_content ?>
+
     <?php get_footer(); ?>
