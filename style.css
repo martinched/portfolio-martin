@@ -23,23 +23,39 @@ body{
     padding-bottom: 0;
 }
 
-/*-------------header-------------------*/
+/*-----------------------------header-------------------------------*/
 
 .header__menu-list{
     list-style-type: none;
     font-size: 15px;
     border-radius: 50px;
     background-color: darkgreen;
-    margin: 5px;
+    margin: 10px;
+    max-height: 23px;
+    width: 90px;
 }
+
+.bouton:hover{
+    font-size: x-large;
+    max-height: auto;
+    margin-left: -10px;
+  
+    
+}
+
+
+
 .header__menu-list a{
     padding: 20px;
     text-decoration: none;
     color: gold;
+    margin: auto;  
 }
 .header__menu{
     float: right; 
     display: flex;
+
+    
 }
 h1{
     color: gold;
@@ -50,39 +66,60 @@ h1, h2, h3, p{
     
 }
 h1, h2, h3{
-    color: gold !important;
+    color: gold;
     margin-bottom: 20px;
 }
 
 
-/*----------------acceuil-------------------*/
+
+/*------------------------------acceuil------------------------------*/
 
 .boutonplus{
     display: flex;
    justify-content: center;
    margin-bottom: 50px;
+   padding-top: -15px;
+   
 }
+
 .plus {
-background-color: darkgreen;
+    background-color: darkgreen;
     color: gold;
     border-radius: 50px;
     border-color: darkgreen;
+    padding: 0;
+    width: 120px;
+   
+}
+.plus:hover{
+    background-color: darkgreen;
+    border-color: darkgreen;
+    font-size: x-large;
+    width: 150px;
+    margin-left: -10px;
+    color: gold;
+  
 }
 #portrait{
    border-radius: 50%;
    width: 100%;
 }
 
-/*---------------------Projet-----------------------*/
+/*-------------------------------Projet---------------------------------*/
 .codesource{
     background-color: darkgreen;
     color: gold;
     border-radius: 50px;
     border-color: darkgreen;
 }
+.codesource:hover{
+    font-size: x-large;
+    color:gold;
+    background-color: darkgreen;
+    border-color: darkgreen;   
+}
 
-    
-/*-------------------footer-----------------*/
+/*--------------------------------footer---------------------------------*/
 
 .footer__logo{
    
@@ -94,26 +131,40 @@ background-color: darkgreen;
     display: flex;
     justify-content: center;
 }
+.footer__logo a{
+    margin-left: 10px;
+}
+.rs{
+    display: flex;
+    justify-content: center;
+
+}
 .linkedin{
-    margin-top: -20px;
+    margin-top: -10px;
+    max-height: 35px;
+    max-width: auto;
 }
 .mail{
-    margin-top: -15px;
+    margin-top: -10px;
+    max-height: 35px;
+    max-width: auto;
 }
 .wa{
-    margin-top: -15px;
+    margin-top: -10px;
+    max-height: 35px;
+    max-width: auto;
 }
  .credits{
     background-color: gold;
     font-size: 14px;
     border-top:1px solid;
     border-color: #000;
-    padding-bottom: 0;
-    margin-bottom: 0;
     color: #000;
 }
-
-/*---------------------------formulaire-------------------------*/
+.credits p{
+    margin-bottom: 0;
+}
+/*---------------------------formulaire--------------------------------*/
 .formulaire{
     text-align: center;
     color: gold;
@@ -148,7 +199,13 @@ background-color: darkgreen;
     color: gold;
     border-radius: 50px;
     border-color: darkgreen;
+    width: 100px;
+    height: 35px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+   
 }
+
 #message{
     width: 500px;
     border-radius: 5px;
@@ -164,7 +221,7 @@ background-color: darkgreen;
     display: none;
 }
 
-/*--------------------Media querie--------------*/
+/*-----------------------------Media querie-------------------------------*/
 
 @media screen and (max-width: 600px) {
     body{
@@ -215,4 +272,5 @@ background-color: darkgreen;
 .img.erreur404{
     display: flex;
     align-items: center;
+}
 }

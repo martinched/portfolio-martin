@@ -2,7 +2,7 @@
 <?php get_header(); ?>
     
  
-    <hr>
+<!--  ceci est l'ancien formulaire de contact fait main en html  <hr>
 <section class="formulaire">
         <div class="container">
             <div class="row">
@@ -33,7 +33,7 @@
             </div>
         </div>
     </section>
-
+-->
     <?php $post = get_post(114) ?>
         <?php echo $post->post_content ?>
 

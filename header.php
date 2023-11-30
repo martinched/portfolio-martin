@@ -33,9 +33,9 @@
                 </div>
                 <div class="col-6 sm-col-12" >
                     <ul class="header__menu">
-                        <li class="header__menu-list"> <a href="http://localhost/wordpress/">Accueil</a> </li>
-                        <li class="header__menu-list"> <a href="http://localhost/wordpress/a-propos-de-moi/">Apropos</a> </li>
-                        <li class="header__menu-list"> <a href="http://localhost/wordpress/Contactez-moi/">Contact</a> </li>
+                        <li class="header__menu-list acceuil"> <a class="bouton" href="http://localhost/wordpress/"> Accueil</a> </li>
+                        <li class="header__menu-list apropos"> <a class="bouton" href="http://localhost/wordpress/a-propos-de-moi/">Apropos</a> </li>
+                        <li class="header__menu-list contact"> <a class="bouton" href="http://localhost/wordpress/Contactez-moi/">Contact</a> </li>
                     </ul>
                 </div>
             </div>
